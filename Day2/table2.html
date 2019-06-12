@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.html" method="GET"><!--method如果是get的话输入的内容会全部显示在地址栏特别注意密码-->
+        <!--文本框输入-->
+        <label>用户名：</label><input name="username" type="text">
+        <br>
+        <!--密码输入框，默认是小圆点-->
+        <label>密码：</label><input name="password" type="password">
+        <br>
+        <!--单选框-->
+        <label>性别:</label>
+        <br>
+        <input id="man" name="sex" type="radio">
+        <label for="man">男</label>
+        <input id="woman" name="sex" type="radio">
+        <label for="woman">女</label>
+        <!--复选框-->
+        <br>
+        <input type="checkbox" id="eat"><label for="eat">美食</label>
+        <input type="checkbox" id="sleep"><label for="sleep">睡觉</label>
+        <input type="checkbox" id="coding"><label for="coding">敲代码</label>
+        <!--下拉菜单-->
+        <br>
+        <label>省：</label>
+        <select>
+            <option>请选择</option>
+            <option>成都</option>
+            <option>北京</option>
+            <option>上海</option>
+        </select>
+        <br>
+        <textarea cols="30" rows="30"></textarea>
+        <br>
+        <label for="">数字：</label><input type="number">
+        <br>
+        <label for="">日期：</label><input type="date">
+        <button>这是普通按钮</button>
+        <input type="submit">
+        <input type="reset">
+        <input type="button" value="老方法按钮">
+
+
+    </form>
+</body>
+</html>
